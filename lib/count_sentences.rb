@@ -18,7 +18,7 @@ class String
     split_sentence = []
     split_sentence = self.split(/[!?.]/)
     split_sentence.reject! { |string| string = ""}
-    binding.pry
+    # binding.pry
     return split_sentence.count
   end
 end
