@@ -18,7 +18,6 @@ class String
     split_sentence = []
     split_sentence = self.split(/[!?.]/)
     split_sentence.reject! { |string| string.empty?}
-    # binding.pry
     return split_sentence.count
   end
 end
